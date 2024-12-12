@@ -1,0 +1,1 @@
+This repository demonstrates a common error in VBScript: improper error handling. The `bug.vbs` file contains code that uses `Err.Raise` without proper error trapping. This can lead to unexpected application termination. The `bugSolution.vbs` file demonstrates how to properly handle errors using an `On Error Resume Next` block.
